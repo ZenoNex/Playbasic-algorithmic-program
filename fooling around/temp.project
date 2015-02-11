@@ -1,0 +1,22 @@
+<General>
+source file=temp.source
+debugmode = 0
+author=awesomewaif0009@xboxlivefamily.com
+Splash Width=394
+Splash Height=145
+Splash Time=0
+Screen Type=1
+Screen Depth=16
+Screen Width=800
+Screen Height=600
+Screen Title=
+Exe File=fooling around.exe
+Parameters=
+</General>
+<Watches>
+</Watches>
+<Linker>
+ResourceFile=fooling around.pbr
+LinkDebug=0
+LinkVersionInfo=0
+</Linker>
