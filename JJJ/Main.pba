@@ -1,0 +1,47 @@
+; PROJECT : Triple J attack
+; AUTHOR  : SSCPSLocal
+; CREATED : 2/6/2015
+; EDITED  : 2/13/2015
+; ---------------------------------------------------------------------	
+	jamesY = 400
+	jamesX = 400	
+		LoadImage "JamesJonahJameson.png", 5 
+		loadimage "vinillaiceicebabby.png", 1
+		MrJameson = NewSprite(400, 400, 5)
+		centerspritehandle MrJameson
+	text 19, 10, "REK'D NEWBSCRUB"
+
+	sync
+	wait 3
+	text 19, 20, "DOS PEACHAMON!"
+	sync
+	wait 10
+	CreateConvexShape 4, 60, 4
+	DrawShape 4, 300, 30, 1
+	sync
+
+do
+	cls 0
+	text 19, 10, "REK'D NEWBSCRUB"
+	wait 3
+	text 19, 20, "DOS PEACHAMON!"
+	wait 10
+	CreateConvexShape 4, 60, 4
+	DrawShape 4, 300, 30, 1
+	positionsprite MrJameson, jamesX, jamesY
+	;scancode 17 is W key 
+	if scancode() = 17 then jamesY = jamesY -2
+	if scancode() = 31 then jamesY = jamesY +2
+	if scancode() = 30 then jamesX = jamesX -2
+	if scancode() = 32 then jamesX = jamesX +2
+		If LeftMouseButton()=true and MouseX()>112 and MouseX()<284 and MouseY()>174 and MouseY()<199
+			text 112, 174, "hi"
+		endif
+	drawallsprites
+	sync
+loop
+
+
+
+
+
