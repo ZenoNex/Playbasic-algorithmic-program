@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ISO8859-1" ?>
   <PBProject Version="1.0">
     <Includes Main="Main.pba">
-      <Include0 Name="Main.pba" Visible="1" CursorCol="16" CursorLine="16"/>
+      <Include0 Name="Main.pba" Visible="1" CursorCol="17" CursorLine="15"/>
     </Includes>
     <Files/>
     <LibraryHighlighters/>
-    <Executable SplashTime="0" DebugMode="0"/>
+    <Executable Name="fooling around.exe" SplashTime="0" DebugMode="0"/>
     <VersionInfo UseInfo="0" AutoInc="0"/>
-    <Screen Width="800" Heigth="600" Depth="0" Mode="1"/>
+    <Screen Width="1300" Heigth="1100" Depth="0" Mode="1"/>
     <Author Name="awesomewaif0009@xboxlivefamily.com"/>
-    <Dates Created="06-02-2015" Edited="06-02-2015"/>
+    <Dates Created="06-02-2015" Edited="12-02-2015"/>
     <Watches/>
     <Breakpoints/>
     <Trace/>
