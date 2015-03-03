@@ -41,11 +41,17 @@
 	;load sequence]---M
 		
 Do ;the main program loop start
+<<<<<<< HEAD
 	print "Join Club Nintendo Today, Mac!"
 	sync
 	waitkey
 	print "-Doc Louis :()"
 	sync
+=======
+	print "death may come to the rich"
+	wait 100 
+	print "death"
+>>>>>>> origin/master
 	waitkey
 	
 	

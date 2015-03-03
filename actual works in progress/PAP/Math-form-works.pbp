@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="ISO8859-1" ?>
   <PBProject Version="1.0">
     <Includes Main="Main.pba">
+<<<<<<< HEAD
       <Include0 Name="Main.pba" Visible="1" CursorCol="0" CursorLine="4"/>
+=======
+      <Include0 Name="Main.pba" Visible="1" CursorCol="14" CursorLine="45"/>
+>>>>>>> origin/master
     </Includes>
     <Files/>
     <LibraryHighlighters/>
