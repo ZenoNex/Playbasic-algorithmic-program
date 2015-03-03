@@ -1,7 +1,7 @@
 ; PROJECT : Math-form-works
 ; AUTHOR  : William Bryant and James Perachi
 ; CREATED : 2/25/2015
-; EDITED  : 3/3/2015
+; EDITED  : 2/27/2015
 ; ---------------------------------------------------------------------
 ;Interpretation key:
 ;	";[...---M" and ";...]---M"  the format for major code sections
@@ -41,9 +41,7 @@
 	;load sequence]---M
 		
 Do ;the main program loop start
-	print "death may come to the rich"
-	wait 100 
-	print "death"
+	
 	waitkey
 	
 	
