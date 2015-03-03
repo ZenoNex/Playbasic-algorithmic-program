@@ -6,6 +6,7 @@
 	jamesY = 400
 	jamesX = 400	
 		LoadImage "JamesJonahJameson.png", 5 
+		loadimage "vinillaiceicebabby.png", 1
 		MrJameson = NewSprite(400, 400, 5)
 		centerspritehandle MrJameson
 	text 19, 10, "REK'D NEWBSCRUB"
@@ -33,8 +34,9 @@ do
 	if scancode() = 31 then jamesY = jamesY +2
 	if scancode() = 30 then jamesX = jamesX -2
 	if scancode() = 32 then jamesX = jamesX +2
-	
-	
+		If LeftMouseButton()=true and MouseX()>112 and MouseX()<284 and MouseY()>174 and MouseY()<199
+			text 112, 174, "hi"
+		endif
 	drawallsprites
 	sync
 loop
