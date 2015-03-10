@@ -1,7 +1,5 @@
 ; PROJECT : Math-form-works
-; AUTHOR  : William Bryant and James Perachi
-; CREATED : 2/25/2015
-; EDITED  : 2/27/2015
+; EDITED  : 3/6/2015
 ; ---------------------------------------------------------------------
 ;Interpretation key:
 ;	";[...---M" and ";...]---M"  the format for major code sections
@@ -31,7 +29,15 @@
 		SetFont 2
 		
 		SetFPS globalfps
-
+	;{load button inputs-s
+		MyInput     =NewInput(20,250,_
+  		"Example Async Input (Get Input While Your Game Updates)")
+  			Inputfont MyInput,2		
+  				
+  				
+  				
+  				
+	;load button inputs}-s 
 	
 	
 	;{load images into memory-s
@@ -41,8 +47,12 @@
 	;load sequence]---M
 		
 Do ;the main program loop start
-	
+	print "Join Club Nintendo Today, Mac!"
+	sync
 	waitkey
+	print "-Doc Louis :()"
+	sync
+
 	
 	
 	
