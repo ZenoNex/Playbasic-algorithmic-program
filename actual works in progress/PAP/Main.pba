@@ -1,7 +1,7 @@
 ; PROJECT : Math-form-works
 ; AUTHOR  : William Bryant and James Perachi
 ; CREATED : 2/25/2015
-; EDITED  : 3/6/2015
+; EDITED  : 3/13/2015
 ; ---------------------------------------------------------------------
 ;[code sections
 ;
@@ -38,7 +38,8 @@
 	
 		#Include "Input" ;include the input code library
 		
-		LoadFont "Minecraft",2,20,0 ;set up the default fontas minecraft
+		ink 0
+		LoadFont "Minecraft",2,30,0 ;set up the default fontas minecraft
 		SetFont 2
 		
 		SetFPS globalfps
@@ -54,6 +55,7 @@
 	
 	
 	;{load images into memory-s
+		loadimage "pap screen.png",1
 	
 	;load images into memory}-s
 	
@@ -67,10 +69,8 @@
 	;load sequence]---M
 		
 Do ;the main program loop start
-	print "Join Club Nintendo Today, Mac!"
-	sync
-	waitkey
-	print "-Doc Louis :()"
+	drawimage 1,0,0,0
+	CenterText 400,550,"A marvelous innovation in math technology"
 	sync
 
 	
