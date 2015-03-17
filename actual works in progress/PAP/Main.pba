@@ -1,11 +1,7 @@
 ; PROJECT : Math-form-works
 ; AUTHOR  : William Bryant and James Perachi
 ; CREATED : 2/25/2015
-<<<<<<< HEAD
-; EDITED  : 3/10/2015
-=======
-; EDITED  : 3/13/2015
->>>>>>> origin/master
+; EDITED  : 3/17/2015
 ; ---------------------------------------------------------------------
 ;[code sections
 ;
@@ -36,7 +32,7 @@
 		
 		Sw=GetScreenWidth()
   	   Sh=GetScreenHeight()
-		globalfps = 60
+		globalfps = 20
 	; setup default variables}-s
 	
 	
@@ -73,20 +69,9 @@
 	;load sequence]---M
 		
 Do ;the main program loop start
-<<<<<<< HEAD
-	print "Join Club Nintendo Today, Mac!"
-	sync
-	waitkey
-	wait 10
-	print "-Doc Louis :()"
-=======
 	drawimage 1,0,0,0
 	CenterText 400,550,"A marvelous innovation in math technology"
->>>>>>> origin/master
 	sync
-	waitkey
-	wait 5000
-	
 
 	
 	
