@@ -1,6 +1,16 @@
 ; PROJECT : Math-form-works
-; EDITED  : 3/6/2015
+; EDITED  : 3/10/2015
 ; ---------------------------------------------------------------------
+;[code sections
+;
+;[buttons
+;If LeftMouseButton()=true and MouseX()>___ and MouseX()<___ and MouseY()>___ and MouseY()<___
+;then   								
+;buttons]
+;
+;
+;
+;code sections]
 ;Interpretation key:
 ;	";[...---M" and ";...]---M"  the format for major code sections
 ;	";{...-s" and ";...}-s"  the format for submajor or minor code sections
@@ -21,8 +31,9 @@
 		Sw=GetScreenWidth()
   	   Sh=GetScreenHeight()
 		globalfps = 20
-	; setup default variables}-s	
-		
+	; setup default variables}-s
+	
+	
 		#Include "Input" ;include the input code library
 		
 		LoadFont "Minecraft",2,20,0 ;set up the default fontas minecraft
@@ -43,6 +54,13 @@
 	;{load images into memory-s
 	
 	;load images into memory}-s
+	
+	;{setup sprites 
+	
+	
+	
+	;setup sprites}	
+		
 		
 	;load sequence]---M
 		

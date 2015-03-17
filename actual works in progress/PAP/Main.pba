@@ -1,7 +1,7 @@
 ; PROJECT : Math-form-works
 ; AUTHOR  : William Bryant and James Perachi
 ; CREATED : 2/25/2015
-; EDITED  : 3/6/2015
+; EDITED  : 3/10/2015
 ; ---------------------------------------------------------------------
 ;[code sections
 ;
@@ -32,7 +32,7 @@
 		
 		Sw=GetScreenWidth()
   	   Sh=GetScreenHeight()
-		globalfps = 20
+		globalfps = 60
 	; setup default variables}-s
 	
 	
@@ -70,8 +70,12 @@ Do ;the main program loop start
 	print "Join Club Nintendo Today, Mac!"
 	sync
 	waitkey
+	wait 10
 	print "-Doc Louis :()"
 	sync
+	waitkey
+	wait 5000
+	
 
 	
 	
