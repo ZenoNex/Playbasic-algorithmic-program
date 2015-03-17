@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="ISO8859-1" ?>
   <PBProject Version="1.0">
     <Includes Main="Main.pba">
-<<<<<<< HEAD
       <Include0 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="74"/>
       <Include1 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="74"/>
-=======
-      <Include0 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="73"/>
-      <Include1 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="73"/>
->>>>>>> origin/master
+      <Include2 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="74"/>
+      <Include3 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="74"/>
     </Includes>
     <Files/>
     <LibraryHighlighters/>
@@ -15,11 +12,7 @@
     <VersionInfo UseInfo="0" AutoInc="0"/>
     <Screen Width="800" Heigth="600" Depth="0" Mode="1"/>
     <Author Name="William Bryant and James Perachi"/>
-<<<<<<< HEAD
-    <Dates Created="25-02-2015" Edited="10-03-2015"/>
-=======
     <Dates Created="25-02-2015" Edited="13-03-2015"/>
->>>>>>> origin/master
     <Watches/>
     <Breakpoints/>
     <Trace/>
