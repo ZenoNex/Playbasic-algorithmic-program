@@ -1,7 +1,7 @@
 ; PROJECT : Math-form-works
 ; AUTHOR  : William Bryant and James Perachi
 ; CREATED : 2/25/2015
-; EDITED  : 3/17/2015
+; EDITED  : 3/18/2015
 ; ---------------------------------------------------------------------
 ;[code sections
 ;
@@ -68,10 +68,19 @@
 		
 	;load sequence]---M
 		
-Do ;the main program loop start
+Do;1 ;the main program loop start
 	drawimage 1,0,0,0
 	CenterText 400,550,"A marvelous innovation in math technology"
 	sync
+	If LeftMouseButton()=true and MouseX()>396 and MouseX()<498 and MouseY()>430 and MouseY()<461
+		cls 0
+		Do;2
+			cls 50
+			sync
+			cls 100
+			sync
+			loop;2
+   	endif
 
 	
 	
@@ -87,6 +96,6 @@ Do ;the main program loop start
 	
 	
 	
-Loop ;the main program loop end
+	Loop;1 ;the main program loop end
 
 
