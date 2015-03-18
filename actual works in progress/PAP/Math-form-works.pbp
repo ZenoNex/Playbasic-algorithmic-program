@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO8859-1" ?>
   <PBProject Version="1.0">
     <Includes Main="Main.pba">
-      <Include0 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="73"/>
-      <Include1 Name="Main.pba" Visible="1" CursorCol="5" CursorLine="73"/>
+      <Include0 Name="Main.pba" Visible="1" CursorCol="21" CursorLine="21"/>
+      <Include1 Name="Main.pba" Visible="1" CursorCol="21" CursorLine="21"/>
     </Includes>
     <Files/>
     <LibraryHighlighters/>
