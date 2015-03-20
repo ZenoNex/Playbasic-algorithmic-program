@@ -1,7 +1,7 @@
 ; PROJECT : Math-form-works
 ; AUTHOR  : William Bryant and James Perachi
 ; CREATED : 2/25/2015
-; EDITED  : 3/18/2015
+; EDITED  : 3/20/2015
 ; ---------------------------------------------------------------------
 ;[code sections
 ;
@@ -56,6 +56,7 @@
 	
 	;{load images into memory-s
 		loadimage "pap screen.png",1
+		loadimage "button screen.png",2
 	
 	;load images into memory}-s
 	
@@ -75,11 +76,11 @@ Do;1 ;the main program loop start
 	If LeftMouseButton()=true and MouseX()>396 and MouseX()<498 and MouseY()>430 and MouseY()<461
 		cls 0
 		Do;2
-			cls 50
+			drawimage 2,0,0,0
 			sync
-			cls 100
-			sync
-			loop;2
+			waitkey
+			end
+		loop;2
    	endif
 
 	
